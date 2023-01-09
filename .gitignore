@@ -1,0 +1,31 @@
+# common data files formats that we use
+*.csv
+*.parquet
+*.json
+
+# airflow specific
+*.log
+*.err
+*.db
+*.pid
+*.out
+
+# dependencies and jars
+*.jar
+*.zip
+*.tgz
+**/description_function/
+**/spark-3.2.1-bin-hadoop3.2/
+**/jvm/
+
+# checkpoints and cache folders
+**/cache/
+**/.ipynb_checkpoints/
+**/logs/
+*.tgz.1
+
+# models
+*.pth
+*.joblib
+*.pkl
+*.sav
