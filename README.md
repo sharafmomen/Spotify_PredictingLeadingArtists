@@ -1,6 +1,4 @@
-<img src="https://github.com/sharafmomen/Spotify_PredictingLeadingArtists/blob/main/images/decorations/Analysing_Successful_Artists_on_Spotify_%F0%9F%8E%A7_.png" width="800">
-
-![My Image](images/decorations/Analysing_Successful_Artists_on_Spotify_🎧_.png)
+<img src="https://github.com/sharafmomen/Spotify_PredictingLeadingArtists/blob/main/images/decorations/Analysing_Successful_Artists_on_Spotify_%F0%9F%8E%A7_.png" width="820">
 
 # Spotify_PredictingLeadingArtists
 
