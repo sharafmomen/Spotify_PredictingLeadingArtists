@@ -1,3 +1,5 @@
+![My Image](images/decorations/Analysing_Successful_Artists_on_Spotify_🎧_.png)
+
 # Spotify_PredictingLeadingArtists
 
 ## Introduction
