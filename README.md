@@ -1,4 +1,4 @@
-![My Image](images/decorations/Analysing_Successful_Artists_on_Spotify_🎧_.png | width=250)
+![My Image](images/decorations/Analysing_Successful_Artists_on_Spotify_🎧_.png)
 
 # Spotify_PredictingLeadingArtists
 
