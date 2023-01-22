@@ -30,3 +30,24 @@ Additional data, such as audio features and song lyrics, were scraped using the 
 Much attention was placed on ensuring there is little data leakage. For example, songs that were featured early in the top Spotify playlists and the playlists that indicate "success" were dropped. Only songs that have just entered the Spotify universe were counted.
 
 ## Exploratory Data Analysis
+
+Here are some quick snapshots of the data. Understandably, there is a right skew in the distribution of listens across listener age. Higher frequencies occur around the mid-late twenties brackets.
+<p align="center">
+  <img src="https://github.com/sharafmomen/Spotify_PredictingLeadingArtists/blob/main/images/analysis/Screenshot%202023-01-12%20at%2017.52.31.png" width="900">
+</p>
+Targetting these age groups may yield better results for an artist, and it would be important to consider an aggregation of ages as a factor to artist success. 
+
+Among all unique listeners, the distribution of male to female is almost 1:1, however, the distributions differ when looking at successful and unsuccessful artists. 
+<p align="center">
+  <img src="https://github.com/sharafmomen/Spotify_PredictingLeadingArtists/blob/main/images/analysis/Screenshot%202023-01-12%20at%2017.52.43.png" width="900">
+</p>
+We can see that for more successful artists, there is a significantly larger female to male ratio, whereas it remains close to 50:50 for unsuccessful artists. Hence, this ratio would serve as an important feature for our problem. 
+
+One last thing we look at is the distribution of audio features. For most of the features, we do not see a difference between successful and unsuccessful artists. 
+<p align="center">
+  <img src="https://github.com/sharafmomen/Spotify_PredictingLeadingArtists/blob/main/images/analysis/Screenshot%202023-01-12%20at%2017.52.54.png" width="900">
+</p>
+Looking at the interquartile range, we see that only 2 audio features can come across as different. Successful artists have a higher IQR for Loudness, and a slightly lower and smaller IQR for speechiness. At a glance, it would seem build-up and lyrical content, rather than more words, is associated it more successful artists. Hence, we will consider Loudness and Speechiness as features for the models in this article. 
+
+
+
