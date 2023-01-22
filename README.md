@@ -49,5 +49,43 @@ One last thing we look at is the distribution of audio features. For most of the
 </p>
 Looking at the interquartile range, we see that only 2 audio features can come across as different. Successful artists have a higher IQR for Loudness, and a slightly lower and smaller IQR for speechiness. At a glance, it would seem build-up and lyrical content, rather than more words, is associated it more successful artists. Hence, we will consider Loudness and Speechiness as features for the models in this article. 
 
+## Feature Engineering
 
+<p align="center">
+  <img src="https://github.com/sharafmomen/Spotify_PredictingLeadingArtists/blob/main/images/analysis/Screenshot%202023-01-12%20at%2017.53.18.png" width="900">
+</p>
+
+<p align="center">
+  <img src="https://github.com/sharafmomen/Spotify_PredictingLeadingArtists/blob/main/images/analysis/Screenshot%202023-01-12%20at%2017.53.08.png" width="900">
+</p>
+
+## Modelling
+
+<p align="center">
+  <img src="https://github.com/sharafmomen/Spotify_PredictingLeadingArtists/blob/main/images/analysis/Screenshot%202023-01-12%20at%2017.53.35.png" width="900">
+</p>
+
+<p align="center">
+  <img src="https://github.com/sharafmomen/Spotify_PredictingLeadingArtists/blob/main/images/analysis/Screenshot%202023-01-12%20at%2017.54.23.png" width="900">
+</p>
+
+## Results and Findings
+
+<p align="center">
+  <img src="https://github.com/sharafmomen/Spotify_PredictingLeadingArtists/blob/main/images/analysis/Screenshot%202023-01-12%20at%2017.54.32.png" width="900">
+</p>
+
+<p align="center">
+  <img src="https://github.com/sharafmomen/Spotify_PredictingLeadingArtists/blob/main/images/analysis/Screenshot%202023-01-12%20at%2017.54.56.png" width="900">
+</p>
+
+<p align="center">
+  <img src="https://github.com/sharafmomen/Spotify_PredictingLeadingArtists/blob/main/images/analysis/Screenshot%202023-01-12%20at%2017.55.05.png" width="900">
+</p>
+
+## Limitations
+1. We only have 600 artists, and the data is heavily outdated. A larger, balanced, and recent dataset could improve our model and recommendations.
+Interpretations of the significant PCA were sacrificed heavily. 
+2. Dimensionality reduction was at the price of guaranteed interpretability of important components from lyrics, region, playlists, and audio features. A statistical analysis on the highlighted PCA components could be explored, to see what exact factors are important. Determining the weights of different features on these PCA components would bring more focused and refined recommendations.
+3. More effort could be placed into limiting data leakage. For example, I could omit a couple more of months of listens for a particular artist prior to becoming successful. 
 
